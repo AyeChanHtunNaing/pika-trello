@@ -1,0 +1,8 @@
+<div class="body">
+<div class="div">
+    <app-list *ngFor="let list of lists" [list]="list" [cardStore]="cardStore"></app-list>
+  </div>
+  <div class="flex">
+  <input type="text" class="frm-ctl" placeholder="Add new list....." [(ngModel)]="listName" (keyup.enter)="onEnter(listName);">
+</div>
+</div>

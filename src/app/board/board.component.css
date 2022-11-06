@@ -1,0 +1,15 @@
+.body{
+  display: flex;
+  padding: 0 5px;
+  height: 100vh;
+  overflow-x: scroll;
+}
+.div,.flex{
+  display: flex;
+}
+.frm-ctl{
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+}
+
